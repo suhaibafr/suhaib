@@ -1,0 +1,60 @@
+
+
+.main h1{
+  text-align: center;
+}
+.tab{
+  position: absolute;
+  top: 86px;
+  left: 512px;
+  border: 2px solid green;
+  width: 480px;
+  height: 590px;
+  text-align: -webkit-center;
+
+}
+.main h2{
+  position: absolute;
+  top: 60px;
+  right: 160px;
+  color: yellowgreen;
+}
+.form{
+  position: absolute;
+    left: 70px;
+    border: 2px solid green;
+    width: 400px;
+    height: 550px;
+    padding: 20px;
+
+}
+.head h2{
+  border: 2px solid green;
+    width: 190px;
+    height: 590px;
+    position: absolute;
+    top: 66px;
+    right: 178px;
+    text-align: -webkit-center;
+}
+
+
+.color tr:nth-child(odd) td{
+  border: 2px solid red;
+}
+.color tr:nth-child(even) td{
+  border: 2px solid blue;
+}
+
+
+.color tr:nth-child(odd){
+  
+  color: red; 
+   padding: 10px;
+ 
+}
+.color tr:nth-child(even){
+  color:blue;
+  padding: 30px;
+  
+}
